@@ -1,0 +1,32 @@
+[
+    {
+        "svg": "/svg/key-square.svg",
+        "text": "Dashboard",
+        "arrow": false
+    },
+    {
+        "svg": "/svg/3d-square.svg",
+        "text": "Product",
+        "arrow": true
+    },
+    {
+        "svg": "/svg/user-square.svg",
+        "text": "Customers",
+        "arrow": true
+    },
+    {
+        "svg": "/svg/wallet-money.svg",
+        "text": "Income",
+        "arrow": true
+    },
+    {
+        "svg": "/svg/discount-shape.svg",
+        "text": "Promote",
+        "arrow": true
+    },
+    {
+        "svg": "/svg/message-question.svg",
+        "text": "Help",
+        "arrow": true
+    }
+]
