@@ -29,7 +29,7 @@ export const Table = ({}: TableProps) => {
             ))}
           </tr>
         </thead>
-        <tbody className="text-zinc-800 text-[10px] mb:text-sm font-medium">
+        <tbody className="text-zinc-800 text-[10px] md:text-sm font-medium">
           {customers?.map((customer, i) => (
             <CompanyRow key={i} customer={customer} />
           ))}

@@ -6,7 +6,7 @@ export interface LogoProps {}
 
 export const Logo = ({}: LogoProps) => {
   return (
-    <Link href="/" className=" flex items-center mb-[55px]">
+    <Link href="/" className=" flex items-center md-[55px]">
       <div className="inline-flex items-center gap-2">
         <Setting className="w-5 h-5 md:w-[37px] md:[37px]" />
         <h1 className=" hidden md:block text-black text-[26px] font-semibold">

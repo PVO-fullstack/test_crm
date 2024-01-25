@@ -13,7 +13,7 @@ export interface StatusBtnProps {
 export const StatusBtn = ({ children, status }: StatusBtnProps) => {
   return (
     <div
-      className={`w-14 mb:w-20 h-[29px] px-3 py-1 bg-opacity-40 rounded border justify-center items-center gap-2.5 inline-flex 
+      className={`w-14 md:w-20 h-[29px] px-3 py-1 bg-opacity-40 rounded border justify-center items-center gap-2.5 inline-flex 
       ${
         (status === Status.Active &&
           'bg-teal-500 text-emerald-600 border-emerald-500') ||
