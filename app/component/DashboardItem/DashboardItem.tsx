@@ -20,7 +20,7 @@ export const DashboardItem = ({
   return (
     <Link
       href={href}
-      className={`group py-[11px] pl-[11px] pr-2 flex justify-between transition-all hover:bg-indigo-400 hover:rounded-lg active:bg-indigo-600 active:rounded-lg ${pathName && 'bg-indigo-600 rounded-lg'} `}
+      className={`group py-1 pl-1 pr-1 md:py-[11px] md:pl-[11px] md:pr-2 flex justify-between transition-all hover:bg-indigo-400 hover:rounded-lg active:bg-indigo-600 active:rounded-lg ${pathName && 'bg-indigo-600 rounded-lg'} `}
     >
       <div className=" flex gap-[14px]">
         {children}

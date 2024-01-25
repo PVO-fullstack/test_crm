@@ -6,7 +6,7 @@ export interface UserProps {}
 
 export const User = ({}: UserProps) => {
   return (
-    <div className="flex items-center gap-3">
+    <div className="flex flex-col md:flex-row items-center gap-3">
       <Image
         className=" w-[42px] h-[42px] rounded-full "
         src={user.avatar}

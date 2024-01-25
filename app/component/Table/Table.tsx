@@ -22,14 +22,14 @@ export const Table = ({}: TableProps) => {
             {headers.map((header, i) => (
               <th
                 key={i}
-                className="last:w-20 last:text-center text-gray-400 pb-[14px] text-sm font-medium text-left  border-zinc-100"
+                className="last:w-14 md:last:w-20 last:text-center text-gray-400 pb-[14px] text-[10px] md:text-sm font-medium text-left  border-zinc-100"
               >
                 {header}
               </th>
             ))}
           </tr>
         </thead>
-        <tbody className="text-zinc-800 text-sm font-medium">
+        <tbody className="text-zinc-800 text-[10px] mb:text-sm font-medium">
           {customers?.map((customer, i) => (
             <CompanyRow key={i} customer={customer} />
           ))}
