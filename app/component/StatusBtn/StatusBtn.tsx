@@ -6,7 +6,7 @@ export enum Status {
 }
 
 export interface StatusBtnProps {
-  status: Status;
+  status: string;
   children: ReactNode;
 }
 

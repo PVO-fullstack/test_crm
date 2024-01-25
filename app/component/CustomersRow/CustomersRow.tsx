@@ -8,7 +8,7 @@ export interface CustomersRowProps {
     phone: string;
     email: string;
     country: string;
-    status: Status;
+    status: string;
     statusName: string;
   };
 }
