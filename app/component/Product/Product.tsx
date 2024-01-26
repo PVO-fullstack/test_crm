@@ -4,7 +4,7 @@ export interface Props {}
 
 export default function Product({}: Props) {
   return (
-    <div className="bg-[#FAFBFF] text-red-800 text-3xl flex items-center justify-center">
+    <div className="bg-[#FAFBFF] text-red-800 text-3xl flex items-center justify-center h-full">
       Home Page <br /> Перейдіть на сторінку Customers
     </div>
   );
