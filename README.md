@@ -8,4 +8,4 @@ It is one page of CRM
 
 ---
 
-![Customers page](https://github.com/PVO-fullstack/test_crm/blob/main/public/crm.png)
+![Customers page](https://github.com/PVO-fullstack/test_crm/blob/master/public/crm.png)
