@@ -9,7 +9,7 @@ export default function SideMenu({}: Props) {
   return (
     <aside className="shadow">
       <div className=" px-1 flex flex-col md:px-7 pt-[37px] pb-[76px] bg-white  ">
-        <div className="mb-[597px]">
+        <div className="mb-[597px] flex flex-col gap-[65px]">
           <Logo />
           <DashboardList />
         </div>
